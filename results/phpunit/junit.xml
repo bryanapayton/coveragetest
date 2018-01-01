@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Unit Tests" tests="4" assertions="4" errors="0" failures="0" skipped="0" time="0.005179">
+    <testsuite name="PagesTest" file="/home/centos/project/Test/App/PagesTest.php" tests="4" assertions="4" errors="0" failures="0" skipped="0" time="0.005179">
+      <testcase name="testRenderReturnsHelloWorld" class="PagesTest" classname="PagesTest" file="/home/centos/project/Test/App/PagesTest.php" line="6" assertions="1" time="0.001770"/>
+      <testcase name="testReturnTrueReturnsTrue" class="PagesTest" classname="PagesTest" file="/home/centos/project/Test/App/PagesTest.php" line="15" assertions="1" time="0.001089"/>
+      <testcase name="testReturnArrayReturnValidArray" class="PagesTest" classname="PagesTest" file="/home/centos/project/Test/App/PagesTest.php" line="21" assertions="1" time="0.001111"/>
+      <testcase name="testReturnArrayReturnsNonEmptyArray" class="PagesTest" classname="PagesTest" file="/home/centos/project/Test/App/PagesTest.php" line="26" assertions="1" time="0.001209"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

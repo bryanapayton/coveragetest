@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit
+color="true"
+convertErrorsToExceptions="true"
+convertNoticesToExceptions="true"
+convertWarningsToExceptions="true"
+stopOnFailures="false"
+syntaxCheck="false"
+>
+   <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./Test</directory>
+        </whitelist>
+    </filter>
+<testsuites>
+<testsuite name="Unit Tests">
+<directory>./Test/</directory>
+</testsuite>
+</testsuites>
+</phpunit>
+
